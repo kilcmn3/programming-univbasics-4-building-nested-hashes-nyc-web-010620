@@ -38,5 +38,5 @@ def monopoly_with_fourth_tier
   # complexity.
 	puts "!!!!!!!!!!!!"
 	monopoly_with_third_tier[:railroads][:names][:b_and_o_railroad]["mortgage_value"] = "$400"
-	puts monopoly_with_third_tier[:railroads][:names][:b_and_o_railroad]
+	puts monopoly_with_third_tier[:railroads][:names][:b_and_o_railroad]["mortgage_value"]
 end

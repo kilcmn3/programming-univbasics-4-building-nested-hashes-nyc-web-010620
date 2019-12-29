@@ -37,6 +37,6 @@ def monopoly_with_fourth_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
 	puts "!!!!!!!!!!!!"
-	puts monopoly_with_third_tier[:railroads][:names][:b_and_o_railroad].merge("mortgage_value")
+	puts monopoly_with_third_tier[:railroads][:names][:b_and_o_railroad].merge(:mortgage_value)
 	puts monopoly_with_third_tier
 end
